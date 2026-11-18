@@ -151,10 +151,10 @@ int task7(void) {
     while (q!=0) {
         br=rand()%3+1;
         bq=bq+br;
-        printf("%2i) Blue team scrore: %2i +%2i = %2i\n",q, bq, br, bq);
+        printf("%2i) Blue team scrore: %2i\n",q, bq);
         rr=rand()%3+1;
         rq=rq+rr;
-        printf("    Red team scrore: %2i +%2i = %2i\n", rq, rr, rq);
+        printf("    Red team scrore: %2i\n", rq);
         q--;
     }
     printf("Blue team final scrore: %2i\n", bq);
@@ -230,4 +230,5 @@ int main(void) {
     task7();
     task9();
     task10();
+    return 0;
 }
