@@ -183,7 +183,7 @@ int task9(void) {
             q=n;
         }
     }
-    printf("The largest element = %lld, its ordinal number = %d\n", m, q);
+    printf("The largest element = %i, its ordinal number = %d\n", m, q);
     return 0;
 }
 int task10(void) {
